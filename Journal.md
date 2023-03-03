@@ -20,12 +20,12 @@ This takes you to the AWS sign in as IAM user page and I signed in with my 12 di
 
 
 
-## Creating a Multifactor Authentication- MFA
+## Task 3- Creating a Multifactor Authentication- MFA
 
 I protected my Root account and IAM user by using a virtual MFA device (Authy).
 
 
-## AWS Command Line Interface (CLI) Setup on Windows
+## Task 4- AWS Command Line Interface (CLI) Setup on Windows
 
 
 This is an open source tool that enables one interact with AWS using commands.
@@ -34,16 +34,16 @@ I installed CLI version 2 using the MSI installer.
 <img width="499" alt="AWS CLI prompt" src="https://user-images.githubusercontent.com/124819387/222527306-92cfbc28-3793-45aa-9726-a1150a742f4e.PNG">
 
 
-### Installing AWS CLI on Linux
+### Task 5- Installing AWS CLI on Linux
 I copied the first code from the AWS page for CLI on Linux and pasted it on my command prompt. Then copied and pasted the 2nd code to unzip my installer then lastly, copied and pasted the last one to run the installer as root.
 
 
-### Creating Access Keys
+### Task 6- Creating Access Keys
 From my IAM console, I went to user BeemBeem and under security credentials (scroll down to "create Access Keys").
 
 I selected Command Line Interface (CLI) and created the Access Key which also has a secret key that can be downlaoded aas a csv file.
 
-## Using AWS CloudShell
+## Task 7- Using AWS CloudShell
 
 This is an AWS terminal that can be used to run your commands alternatively to the other CLIs.
  <img width="923" alt="Cloud shell" src="https://user-images.githubusercontent.com/124819387/222526386-d6ba0a62-55a9-4bcc-8146-f4359dd2e71c.PNG">
