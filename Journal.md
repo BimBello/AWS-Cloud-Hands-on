@@ -80,6 +80,12 @@ To access the server with IIS, go back to your instance on AWS console, copy the
 To confirm my IIS windows server is functioning, from the wwroot folder, I opened on notepad, deleted all the command, then pasted a simple HTMl code and refreshed the windows page.  <img width="800" alt="HTML webserver example" src="https://user-images.githubusercontent.com/124819387/224695341-33caa34c-ad7e-4fe7-bec3-033c8615734c.PNG">
 
 
+## Creating Linux Machine on AWS
+
+
+
+
+
 
 
 
