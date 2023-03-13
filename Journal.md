@@ -65,6 +65,25 @@ I Copied the password, and went back to downloaded instance (Key pair), right cl
 
 
 
+## Task 12 Configure Webserver Internet Information Service (IIS) on Windows EC2 Machine
+
+This a Microsoft web server that runs on Windows operating system and is used to exchange static and dynamic web content with internet users. IIS can be used to host, deploy, and manage web applications.
+
+From my EC2 server, right click on the windows icon and select "server manager". Click on "Add roles  and features". Skip the default wizard page and also keep the "Role baded or feature based installation" on default. Click "Next, select "Server Roles" on the left hand side and select "Web server (IIS) from the option.
+Click on Add features- Management console and next! Install and the Inetpub is created and saved on C drive of the desktop folder.   <img width="523" alt="IIS download" src="https://user-images.githubusercontent.com/124819387/224694278-8240d0e2-4943-4407-9316-3c965f5cd74d.PNG">
+
+
+The webserver will be in the Inetput file (wwwroot).
+To access the server with IIS, go back to your instance on AWS console, copy the public IP address and paste it on a new windows tab (http://ip address). I ensured that my port range 80 is open or added to my security group so that I can access the default IIS page.  <img width="893" alt="IIS Default page" src="https://user-images.githubusercontent.com/124819387/224694433-c7bd2745-368d-4002-9236-8bdc8810eefe.PNG">
+
+
+To confirm my IIS windows server is functioning, from the wwroot folder, I opened on notepad, deleted all the command, then pasted a simple HTMl code and refreshed the windows page.  <img width="800" alt="HTML webserver example" src="https://user-images.githubusercontent.com/124819387/224695341-33caa34c-ad7e-4fe7-bec3-033c8615734c.PNG">
+
+
+
+
+
+
 
 
 
