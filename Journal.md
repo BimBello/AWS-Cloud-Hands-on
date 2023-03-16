@@ -80,7 +80,15 @@ To access the server with IIS, go back to your instance on AWS console, copy the
 To confirm my IIS windows server is functioning, from the wwroot folder, I opened on notepad, deleted all the command, then pasted a simple HTMl code and refreshed the windows page.  <img width="800" alt="HTML webserver example" src="https://user-images.githubusercontent.com/124819387/224695341-33caa34c-ad7e-4fe7-bec3-033c8615734c.PNG">
 
 
-## Creating Linux Machine on AWS
+## Task 13 -Creating Linux Machine on AWS
+This follows the same method of creating a windows EC2 machine but "AWS Linux" was selected as the AMI. Once the instance is created, I used the default name "ec2-user and connected my linux instance.   <img width="360" alt="Linux instance 2" src="https://user-images.githubusercontent.com/124819387/225720012-1a9047ff-a9f1-4331-a401-52cf02fb67f8.PNG">
+
+
+### Task 14 -Launching Linux machine using PuTTY
+
+Download and install the latest PuTTY tool.. I opened it and copied my public IP address from my my Linux instance and pasted on the "Host name". By default, the port 22 is selected.
+On the left hand side, I clicked on + SSH, then + Auth, Credentials then browsed the downloaded private key file for authentication (This is the Key pair created initially) then Open. This allows us to access the server remotely. 
+Accept the security alert and the instance is launched.
 
 
 
