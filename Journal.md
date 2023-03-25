@@ -24,6 +24,8 @@ Actions- Get Object
 ARN- (Paste the copied arn from the notepad, next is Add statement then generate policy.   <img width="813" alt="Generated policy" src="https://user-images.githubusercontent.com/124819387/226464690-d8511361-c90e-4e11-9531-4d93fea81330.PNG">
 
 
+## Task 17- 
+
 <img width="355" alt="Generated policy 1" src="https://user-images.githubusercontent.com/124819387/226464474-f98fd6d3-2913-42b6-a9d5-9b9e5d321267.PNG">
 
 I copied and pasted the generated policy on the Edit policy page and saved changes. To check if the policy is in effect, I repeated the process of adding and uploading a file from the S3 bucket page, uploaded another PNG file then copied the URL to paste on a new browser. This opened the object in the bucket.  <img width="749" alt="s3 AWS logo" src="https://user-images.githubusercontent.com/124819387/226465851-af8f59a3-e99f-4211-ad0e-c7615b836102.PNG">
